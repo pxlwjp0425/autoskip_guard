@@ -1,0 +1,10 @@
+* text=auto
+
+# 脚本进 Android 的 sh 跑，行尾必须是 LF —— CRLF 会直接报语法错
+*.sh   text eol=lf
+*.prop text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+
+# 二进制
+*.zip binary

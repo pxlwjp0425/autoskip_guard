@@ -1,0 +1,6 @@
+# 打包产物：走 Release 发布，不进 git
+*.zip
+
+# Python
+__pycache__/
+*.pyc
